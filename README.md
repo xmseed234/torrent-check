@@ -11,7 +11,7 @@ Features
 
 A useful shell script:
 ----------------------
-> for i in \*.torrent; do torrentcheck . "$i" && mv "$i" ./good ; done
+> for i in \*.torrent; do torrentcheck -p . -t "$i" && mv "$i" ./good ; done
 
 
 From torrentcheck.txt:
