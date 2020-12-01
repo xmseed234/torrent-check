@@ -2,7 +2,7 @@
 
 Forked from https://sourceforge.net/projects/torrentcheck/ by https://sourceforge.net/u/inglem/
 
-Command line torrent viewer and hash checker. Displays metadata and file catalog from a .torrent file. Offline verifies content hashes of downloaded files against torrent. Linux or Windows, Windows binary included.
+Command line torrent viewer and hash checker. Displays metadata and file catalog from a .torrent file. Offline verifies content hashes of downloaded files against torrent. Linux or Windows, Linux binary included as release v1.
 
 Features
 * display torrent file catalog
