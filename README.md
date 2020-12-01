@@ -13,6 +13,13 @@ A useful shell script:
 ----------------------
 > for i in \*.torrent; do torrentcheck -p . -t "$i" && mv "$i" ./good ; done
 
+Docker:
+-------
+
+Build your image from Dockerfile in this repo, or clone the pre-built one with
+> docker pull xmseed234/torrent-check
+
+launch it with -it and bind your torrent folder, connect to the console and run the shell script above.
 
 From torrentcheck.txt:
 ----------------------
