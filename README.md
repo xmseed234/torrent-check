@@ -9,6 +9,11 @@ Features
 * verify content files using hashes in torrent file
 * generate and check SHA1 hashes
 
+A useful shell script:
+----------------------
+> for i in \*.torrent; do torrentcheck . "$i" && mv "$i" ./good ; done
+
+
 From torrentcheck.txt:
 ----------------------
 
